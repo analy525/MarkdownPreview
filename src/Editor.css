@@ -1,0 +1,53 @@
+.Editor {
+  background-color: #c0d8d8;
+  height: 240px;
+  width: 750px;
+  justify-content: center;
+  margin-top: 21px;
+  box-shadow: 2px 2px 12px 3px #3a5f5f;
+  display: block;
+}
+
+.Editor-Header {
+  display: flex;
+  background-color: #4aa3a3;
+  font-size: 22px;
+  font-weight: bold;
+  height: 34px;
+  color: black;
+  border: 1px solid black;
+  text-align: left;
+  padding-top: 9px;
+}
+
+#editor {
+  display: block;
+  box-shadow: 2px 2px 12px 3px #3a5f5f;
+  padding: 5px;
+  height: 240px;
+  width: 738px;
+  background-color: #c0d8d8;
+  font-size: 0.55em;
+  color: black;
+  border: 1px solid black;
+  border-top: none;
+}
+
+.Editor-Header i {
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 4px;
+}
+
+.Editor-Header .fa-arrows-alt,
+.Editor-Header .fa-compress {
+  margin-left: auto;
+}
+
+.fa-retweet:hover,
+.fa-compress:hover,
+.fa-arrows-alt:hover {
+  color: #57e2b1;
+  cursor: pointer;
+}
